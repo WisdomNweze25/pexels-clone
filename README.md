@@ -18,4 +18,9 @@ This is a full-stack Pexels clone with photo, video, and GIF upload, user auth, 
 ## Environment Variables
 
 Backend `.env`:
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/pexels_clone
+JWT_SECRET=your_jwt_secret
 
+Frontend `.env`:
+REACT_APP_API_URL=http://localhost:5000/api
